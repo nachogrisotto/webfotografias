@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+nav {
+    background-color: rgb(130, 130, 130);
+    padding: 15px 0px 15px 0px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.firma{
+max-width: 50%;
+max-height: 75%;
+display: flex;
+margin-left: 25%;
+margin-top: 50px;
+
+}
+body{
+background-color: rgb(36, 36, 36);
+}
+.HomeTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+    color: rgb(62, 60, 60);
+    font-weight: bold;
+    background-color: rgb(234, 230, 224);
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 50px;
+}
+.bio{
+    justify-content: center;
+    color: rgb(130, 130, 130);
+    font-weight: bolder;
+    }
+.bioPic{
+max-width: 25%;
+max-height: 25%;
+margin-top: 60px;
+
+margin-bottom: 30px;
+margin-left: 36%;
+padding: 0%;
+}
+
+form{
+    font-family: 'Josefin Sans', sans-serif;
+    color: azure;
+}
+.galeria{
+    max-width: 25%;
+    max-height: 25%;
+   padding: 15px;
+}
+.bio{
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    margin-top: 1%;
+    color: rgb(234, 230, 224);
+    font-weight: bold;
+     margin-right: 550px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.video{
+   display: flex;
+   margin-left: 15px;
+   margin-top: 30px;
+
+}
