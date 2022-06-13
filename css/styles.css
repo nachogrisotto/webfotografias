@@ -75,11 +75,6 @@ form{
     font-family: 'Josefin Sans', sans-serif;
     color: azure;
 }
-.galeria{
-    max-width: 25%;
-    max-height: 25%;
-   padding: 15px;
-}
 .bio{
     justify-content: center;
     margin-bottom: 75px;
@@ -102,4 +97,16 @@ h2{
    margin-left: 15px;
    margin-top: 30px;
 
+}
+.galleryDiv{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+
+}
+.galeria{
+    max-width: 95%;
+    max-height: 95%;
 }
