@@ -17,7 +17,8 @@ nav {
 ul {
     list-style: none;
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     justify-content: space-around;
     font-family: 'Josefin Sans', sans-serif;
     font-size: larger;
@@ -61,31 +62,19 @@ background-color: rgb(36, 36, 36);
     color: rgb(130, 130, 130);
     font-weight: bolder;
     }
-.bioPic{
-max-width: 25%;
-max-height: 25%;
-margin-top: 60px;
 
-margin-bottom: 30px;
-margin-left: 36%;
-padding: 0%;
-}
 
 form{
     font-family: 'Josefin Sans', sans-serif;
     color: azure;
 }
-.galeria{
-    max-width: 25%;
-    max-height: 25%;
-   padding: 15px;
-}
 .bio{
     justify-content: center;
     margin-bottom: 75px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 100px;
     margin-right: 100px;
+    line-height: 5vh;
 }
 h2{
     font-family: 'Josefin Sans', sans-serif;
@@ -103,3 +92,72 @@ h2{
    margin-top: 30px;
 
 }
+.bioPic{
+    max-width: 95%;
+    max-height: 95%;
+
+}
+
+.galeria{
+    max-width: 95%;
+    max-height: 95%;
+}
+@media (max-width:1920px){
+    a:hover{
+        transform:color;
+    color: blanchedalmond;
+    transition: 0.5s;
+    }
+    .galleryDiv{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-around;
+    
+    }
+.gridBio{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    
+}
+}
+@media (max-width:768px){
+    a:hover{
+        transform:color;
+    color: blanchedalmond;
+    transition: 0.5s;
+    }
+    .galleryDiv{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: space-around;
+}
+}
+@media (max-width:480px){
+    .galleryDiv{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto auto auto;
+        justify-content: space-around;  
+}
+ul {
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
+.gridBio{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 50px;
+    
+}}
