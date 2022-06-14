@@ -71,9 +71,10 @@ form{
 .bio{
     justify-content: center;
     margin-bottom: 75px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 100px;
     margin-right: 100px;
+    line-height: 5vh;
 }
 h2{
     font-family: 'Josefin Sans', sans-serif;
