@@ -102,6 +102,19 @@ h2{
     max-width: 95%;
     max-height: 95%;
 }
+.contacto{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    }
+form{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.imgContacto{
+    margin: 20px;
+}
+
 @media (max-width:1920px){
     a:hover{
         transform:color;
@@ -121,6 +134,9 @@ h2{
     grid-template-columns: auto auto;
     padding: 50px;
     
+}
+.igLogo{
+    margin: 15px;
 }
 }
 @media (max-width:768px){
